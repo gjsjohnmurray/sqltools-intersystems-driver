@@ -26,10 +26,10 @@ export default class IRISDriver extends AbstractDriver<IRISdb, DriverOptions> im
     if (this.credentials.serverName) {
       throw new Error("not supported");
     } else {
-      let { https, server: host, port, pathPrefix, username, password } = this.credentials;
+      let { https, server, host, port, pathPrefix, username, password } = this.credentials;
       config = {
         https,
-        host,
+        host: host || server,
         port,
         pathPrefix,
         namespace,

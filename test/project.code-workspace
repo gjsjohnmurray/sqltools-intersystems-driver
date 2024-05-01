@@ -6,7 +6,6 @@
     }
   ],
   "settings": {
-    "sqltools.useNodeRuntime": true,
     "sqltools.format": {
       "reservedWordCase": "upper",
       "linesBetweenQueries": "preserve"
@@ -53,6 +52,37 @@
         "server": "localhost",
         "showSystem": true,
         "username": "_SYSTEM"
+      },
+      {
+        "connectionMethod": "Server Manager",
+        "namespace": "%SYS",
+        "showSystem": true,
+        "previewLimit": 49,
+        "server": "local-iris",
+        "driver": "InterSystems IRIS",
+        "name": "SM local-iris %SYS"
+      },
+      {
+        "connectionMethod": "Server Manager",
+        "namespace": "USER",
+        "showSystem": true,
+        "previewLimit": 50,
+        "server": "local-iris",
+        "driver": "InterSystems IRIS",
+        "name": "SM local-iris USER"
+      },
+      {
+        "connectionMethod": "Server and Port",
+        "namespace": "USER",
+        "showSystem": false,
+        "previewLimit": 50,
+        "server": "localhost",
+        "port": 52773,
+        "askForPassword": false,
+        "driver": "InterSystems IRIS",
+        "name": "IRIS SuperUser",
+        "username": "SuperUser",
+        "password": "SYS"
       }
     ]
   }
