@@ -10,7 +10,8 @@
   - Bump markdown-it and @vscode/vsce (#84)
   - Bump @babel/core and @babel/preset-env (#85)
   - Bump linkify-it from 5.0.1 to 5.0.2 (#87)
-  - Bumb brace-expansion and rimraf (#86)
+  - Bump brace-expansion and rimraf (#86)
+  - Bump js-yaml from 4.2.0 to 4.3.1 (#90)
 
 ## [0.3.0] 07-Apr-2026
 - Enhancements
