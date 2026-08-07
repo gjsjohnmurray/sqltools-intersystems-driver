@@ -1,9 +1,9 @@
 # Change Log
 
-## [0.3.1] 24-Jul-2026
+## [0.3.1] 07-Aug-2026
 - Dependency updates
   - Bump qs from 6.15.0 to 6.15.2 (#81)
-  - Bump fast-uri from 3.1.0 to 3.1.4 (#80, #88)
+  - Bump fast-uri from 3.1.0 to 3.1.5 (#80, #88, #89)
   - Bump @babel/plugin-transform-modules-systemjs from 7.22.5 to 7.29.4 (#79)
   - Bump tmp from 0.2.4 to 0.2.7 (#82)
   - Bump uuid from 8.3.2 to 14.0.0 (#78)
