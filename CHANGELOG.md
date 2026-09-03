@@ -1,6 +1,6 @@
 # Change Log
 
-## [0.3.1] 07-Aug-2026
+## [0.3.1] 03-Sep-2026
 - Dependency updates
   - Bump qs from 6.15.0 to 6.15.2 (#81)
   - Bump fast-uri from 3.1.0 to 3.1.5 (#80, #88, #89)
