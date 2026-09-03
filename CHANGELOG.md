@@ -12,6 +12,8 @@
   - Bump linkify-it from 5.0.1 to 5.0.2 (#87)
   - Bump brace-expansion and rimraf (#86)
   - Bump js-yaml from 4.2.0 to 4.3.1 (#90)
+  - Bump fast-uri from 3.1.5 to 3.1.7 (#91)
+  - Bump browserslist from 4.28.1 to 4.28.8 (#92)
 
 ## [0.3.0] 07-Apr-2026
 - Enhancements
